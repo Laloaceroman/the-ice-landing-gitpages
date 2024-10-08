@@ -279,15 +279,21 @@ app.modal = {
 
 app.pagepiling = {
   init: function() {
-    return $('#pagepiling').pagepiling({
-      direction: 'vertical',
-      sectionsColor: ['#ffffff', '#EFEFF1', '#ffffff', '#EFEFF1', '#ffffff', '#EFEFF1'],
-      navigation: {
-        'position': 'right',
-        'tooltips': ['Sección 1', 'Sección 2', 'Sección 3', 'Sección 4', 'Sección 5', 'Sección 6']
-      },
-      scrollingSpeed: 700
-    });
+    var isMobile;
+    isMobile = window.innerWidth < 768;
+    if (isMobile) {
+      return $('body').addClass('normal-scroll');
+    } else {
+      return $('#pagepiling').pagepiling({
+        direction: 'vertical',
+        sectionsColor: ['#ffffff', '#EFEFF1', '#ffffff', '#EFEFF1', '#ffffff', '#EFEFF1'],
+        navigation: {
+          'position': 'right',
+          'tooltips': ['Sección 1', 'Sección 2', 'Sección 3', 'Sección 4', 'Sección 5', 'Sección 6']
+        },
+        scrollingSpeed: 700
+      });
+    }
   }
 };
 

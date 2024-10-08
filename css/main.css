@@ -41,8 +41,15 @@ html {
 }
 body {
   -webkit-font-smoothing: antialiased;
-  background: $beige;
+  background: #fff;
   margin: 0;
+}
+body.normal-scroll #pagepiling {
+  position: static;
+}
+body.normal-scroll #pagepiling .section {
+  height: auto;
+  padding: 20px;
 }
 body,
 button,
@@ -2719,14 +2726,6 @@ header.header--static .header__nav ul li a {
   -webkit-transform: translate(-50%, -50%);
   text-align: center;
 }
-/*
- * pagepiling.js 1.5.6
- *
- * https://github.com/alvarotrigo/pagePiling.js
- * @license MIT licensed
- *
- * Copyright (C) 2016 alvarotrigo.com - A project by Alvaro Trigo
- */
 body,
 html {
   overflow: hidden;
@@ -2740,6 +2739,9 @@ html {
   width: 100%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+}
+.pp-section.pp-table {
+  display: table;
 }
 .pp-easing {
   transition: all 1s cubic-bezier(0.55, 0.085, 0, 0.99);
@@ -2757,9 +2759,6 @@ html {
 }
 #pp-nav.left {
   left: 17px;
-}
-.pp-section.pp-table {
-  display: table;
 }
 .pp-tableCell {
   display: table-cell;
@@ -2779,6 +2778,9 @@ html {
 .pp-slidesNav.top {
   top: 17px;
 }
+.pp-slidesNav li {
+  display: inline-block;
+}
 #pp-nav ul,
 .pp-slidesNav ul {
   margin: 0;
@@ -2791,9 +2793,6 @@ html {
   height: 13px;
   margin: 7px;
   position: relative;
-}
-.pp-slidesNav li {
-  display: inline-block;
 }
 #pp-nav li a,
 .pp-slidesNav li a {
@@ -3011,6 +3010,7 @@ section .section__wrap {
   section .section__wrap {
     padding: 60px 60px;
     max-width: 1400px;
+    zoom: 90%;
   }
 }
 section .section__wrap.section__wrap--main {
