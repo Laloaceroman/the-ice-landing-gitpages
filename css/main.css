@@ -43,6 +43,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #fff;
   margin: 0;
+  overflow: scroll !important;
 }
 body.normal-scroll #pagepiling {
   position: static;
@@ -1611,6 +1612,30 @@ svg {
             transform: translateX(-200px);
   }
 }
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
 article {
   position: relative;
   overflow: hidden;
@@ -2726,12 +2751,14 @@ header.header--static .header__nav ul li a {
   -webkit-transform: translate(-50%, -50%);
   text-align: center;
 }
-body,
-html {
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+@media (min-width: 720px) {
+  body,
+  html {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
 }
 .pp-section {
   height: 100%;
@@ -2846,6 +2873,10 @@ section {
   overflow: hidden;
   text-align: left;
   border-bottom: 1px solid rgba(0,0,0,0);
+}
+section .animated-text {
+  -webkit-animation: slideFadeUp 1s forwards;
+          animation: slideFadeUp 1s forwards;
 }
 section .section__bg {
   position: absolute;
@@ -3013,6 +3044,11 @@ section .section__wrap {
     zoom: 90%;
   }
 }
+@media (min-width: 1420px) {
+  section .section__wrap {
+    zoom: 130%;
+  }
+}
 section .section__wrap.section__wrap--main {
   position: relative;
   max-width: 1400px;
@@ -3175,6 +3211,11 @@ section.section--main .section__body .section__right .section__logo img {
 }
 section.section--products {
   background-color: #efeff1;
+}
+@media (min-width: 720px) {
+  section.section--products .section__wrap {
+    top: 80px;
+  }
 }
 section.section--products .section__carousel .section__carousel__item.section__carousel__item--cyan .section__content .section__name {
   color: #63b6a4;
@@ -3415,6 +3456,9 @@ section.section--plastico .section__body .slick-carousel-plastico-contents .sect
     line-height: 28px;
   }
 }
+section.section--message1 .section__wrap {
+  top: 80px;
+}
 section.section--message1 .section__content {
   width: 100%;
   text-align: center;
@@ -3426,6 +3470,35 @@ section.section--message1 .section__content .section__text {
   font-size: 56px;
   line-height: 64px;
   color: #000;
+}
+section.section--message1 .section__content .section__comilla--1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.section--message1 .section__content .section__comilla--1 img {
+  max-width: 100px;
+}
+section.section--message1 .section__content .section__comilla--2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+section.section--message1 .section__content .section__comilla--2 img {
+  max-width: 100px;
+}
+section.section--message1 .section__content .section__linecurve {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+section.section--message1 .section__content .section__linecurve img {
+  width: 350px;
+}
+section.section--message1 .section__content .section__line img {
+  max-width: 250px;
 }
 section.section--message3 .section__bg {
   position: relative;
@@ -3441,6 +3514,30 @@ section.section--message3 .section__content {
   width: 100%;
   max-width: 60%;
 }
+section.section--message3 .section__content>* {
+  -webkit-animation: slideFadeUp 0.5s ease backwards;
+          animation: slideFadeUp 0.5s ease backwards;
+}
+section.section--message3 .section__content>*:nth-child(1) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+section.section--message3 .section__content>*:nth-child(2) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+section.section--message3 .section__content>*:nth-child(3) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+section.section--message3 .section__content>*:nth-child(4) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+section.section--message3 .section__content>*:nth-child(5) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
 section.section--message3 .section__content .section__title {
   font-family: 'Peahart', sans-serif;
   font-size: 7vh;
@@ -3448,8 +3545,8 @@ section.section--message3 .section__content .section__title {
 }
 @media (min-width: 720px) {
   section.section--message3 .section__content .section__title {
-    font-size: 6vh;
-    line-height: 9vh;
+    font-size: 7vh;
+    line-height: 11vh;
     width: 100%;
     max-width: 80%;
   }
@@ -3466,8 +3563,17 @@ section.section--message3 .section__content .section__title strong {
   font-family: 'Korolev', sans-serif;
   display: block;
   font-size: 15vh;
-  line-height: 20vh;
+  line-height: 12vh;
   text-transform: uppercase;
+  margin-top: 40px;
+}
+section.section--message3 .section__content .section__line img,
+section.section--message3 .section__content .section__line position relative {
+  max-width: 500px;
+  margin: initial;
+}
+section.section--background {
+  min-height: 100vh;
 }
 .slick-slider {
   position: relative;
