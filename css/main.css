@@ -2579,6 +2579,7 @@ header.header--static .header__nav ul li a {
   header {
     height: 90px;
     line-height: 90px;
+    zoom: 120%;
   }
   header .header__wrap {
     padding: 0 40px;
@@ -3340,28 +3341,9 @@ section.section--products .section__carousel .section__carousel__item .section__
   height: initial;
   max-height: 100px;
 }
-section.section--plastico .section__header {
-  margin-bottom: 0;
-  position: relative;
-  top: 40px;
-  left: -10px;
-  z-index: 3;
-}
-@media (min-width: 720px) {
-  section.section--plastico .section__header {
-    top: 70px;
-  }
-}
-section.section--plastico .section__header .section__title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 48px;
-}
-@media (min-width: 720px) {
-  section.section--plastico .section__header .section__title {
-    font-size: 86px;
-    line-height: 94px;
-  }
+section.section--plastico .section__wrap {
+  height: 55vh;
+  top: 60px;
 }
 section.section--plastico .section__body .slick-carousel-plastico-images {
   position: relative;
@@ -3419,6 +3401,21 @@ section.section--plastico .section__body .slick-carousel-plastico-contents {
     max-width: 60%;
   }
 }
+section.section--plastico .section__body .slick-carousel-plastico-contents .section__title__main {
+  position: absolute;
+  top: -70px;
+  left: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+}
+@media (min-width: 720px) {
+  section.section--plastico .section__body .slick-carousel-plastico-contents .section__title__main {
+    font-size: 68px;
+    line-height: 76px;
+  }
+}
 section.section--plastico .section__body .slick-carousel-plastico-contents .section__content {
   width: 100%;
   background-color: #000;
@@ -3440,7 +3437,7 @@ section.section--plastico .section__body .slick-carousel-plastico-contents .sect
 }
 @media (min-width: 720px) {
   section.section--plastico .section__body .slick-carousel-plastico-contents .section__content .section__content__box {
-    padding: 80px;
+    padding: 40px;
     min-height: 390px;
   }
 }
@@ -3452,8 +3449,8 @@ section.section--plastico .section__body .slick-carousel-plastico-contents .sect
 }
 @media (min-width: 720px) {
   section.section--plastico .section__body .slick-carousel-plastico-contents .section__content .section__content__box p {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 36px;
   }
 }
 section.section--message1 .section__wrap {

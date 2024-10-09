@@ -286,7 +286,7 @@ app.pagepiling = {
     } else {
       return $('#pagepiling').pagepiling({
         direction: 'vertical',
-        sectionsColor: ['#ffffff', '#ffffff', '#EFEFF1', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
+        sectionsColor: ['#ffffff', '#EFEFF1', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
         navigation: {
           'position': 'right',
           'tooltips': ['Sección 1', 'Sección 2', 'Sección 3', 'Sección 4', 'Sección 5', 'Sección 6', 'Sección 7']
@@ -459,7 +459,7 @@ app.slick = {
       autoplay: true,
       autoplaySpeed: 3000,
       fade: true,
-      speed: 1500,
+      speed: 500,
       arrows: false,
       dots: false
     });
@@ -472,9 +472,9 @@ app.slick = {
       arrows: true,
       fade: false,
       infinite: true,
-      asNavFor: '.slick-carousel-plastico-contents'
+      asNavFor: '.slick-carousel-plastico-contents-slick'
     });
-    $('.slick-carousel-plastico-contents').slick({
+    $('.slick-carousel-plastico-contents-slick').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       infinite: true,
