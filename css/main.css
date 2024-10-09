@@ -3276,7 +3276,7 @@ section.section--products .section__carousel .section__carousel__item .section__
 }
 @media (min-width: 720px) {
   section.section--products .section__carousel .section__carousel__item .section__image .section__product img {
-    width: 80%;
+    width: 90%;
   }
 }
 section.section--products .section__carousel .section__carousel__item .section__content {
