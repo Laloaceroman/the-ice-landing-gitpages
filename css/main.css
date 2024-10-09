@@ -2579,7 +2579,7 @@ header.header--static .header__nav ul li a {
   header {
     height: 90px;
     line-height: 90px;
-    zoom: 120%;
+    zoom: 110%;
   }
   header .header__wrap {
     padding: 0 40px;
@@ -2691,6 +2691,9 @@ header.header--static .header__nav ul li a {
   }
 }
 @media (min-width: 1090px) {
+  header {
+    zoom: 110%;
+  }
   header .header__ham {
     display: none;
   }
@@ -2742,7 +2745,7 @@ header.header--static .header__nav ul li a {
 }
 .loading .loading__img {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   padding: 60px 20px;
   text-align: center;
   position: absolute;
