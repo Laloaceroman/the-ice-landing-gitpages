@@ -463,7 +463,7 @@ app.slick = {
       arrows: false,
       dots: false
     });
-    $('.slick-carousel-plastico-images').slick({
+    $('.slick-carousel-plastico-images-images').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       infinite: true,
@@ -483,9 +483,9 @@ app.slick = {
       fade: true,
       speed: 1000,
       infinite: true,
-      asNavFor: '.slick-carousel-plastico-images'
+      asNavFor: '.slick-carousel-plastico-images-images'
     });
-    return $('.slick-carousel-plastico-images').on('afterChange', function(event, slick, currentSlide) {
+    return $('.slick-carousel-plastico-images-images').on('afterChange', function(event, slick, currentSlide) {
       return app.bg.init();
     });
   }

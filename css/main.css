@@ -3276,7 +3276,7 @@ section.section--products .section__carousel .section__carousel__item .section__
 }
 @media (min-width: 720px) {
   section.section--products .section__carousel .section__carousel__item .section__image .section__product img {
-    width: 90%;
+    width: 80%;
   }
 }
 section.section--products .section__carousel .section__carousel__item .section__content {
@@ -3351,15 +3351,33 @@ section.section--plastico .section__wrap {
 }
 section.section--plastico .section__body .slick-carousel-plastico-images {
   position: relative;
+  text-align: right;
+}
+section.section--plastico .section__body .slick-carousel-plastico-images .section__title__main {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 0;
+}
+@media (min-width: 720px) {
+  section.section--plastico .section__body .slick-carousel-plastico-images .section__title__main {
+    max-width: 70%;
+    font-size: 62px;
+    line-height: 74px;
+  }
+}
+section.section--plastico .section__body .slick-carousel-plastico-images-images {
+  position: relative;
   max-width: 80%;
   overflow: initial;
 }
 @media (min-width: 720px) {
-  section.section--plastico .section__body .slick-carousel-plastico-images {
+  section.section--plastico .section__body .slick-carousel-plastico-images-images {
     max-width: 70%;
   }
 }
-section.section--plastico .section__body .slick-carousel-plastico-images:after {
+section.section--plastico .section__body .slick-carousel-plastico-images-images:after {
   content: "";
   position: absolute;
   bottom: -150px;
@@ -3372,24 +3390,24 @@ section.section--plastico .section__body .slick-carousel-plastico-images:after {
   z-index: -1;
 }
 @media (min-width: 720px) {
-  section.section--plastico .section__body .slick-carousel-plastico-images:after {
+  section.section--plastico .section__body .slick-carousel-plastico-images-images:after {
     width: 300px;
     height: 300px;
     bottom: -300px;
   }
 }
-section.section--plastico .section__body .slick-carousel-plastico-images .section__bg {
+section.section--plastico .section__body .slick-carousel-plastico-images-images .section__bg {
   position: relative;
   height: 300px;
   overflow: hidden;
   z-index: 1;
 }
 @media (min-width: 720px) {
-  section.section--plastico .section__body .slick-carousel-plastico-images .section__bg {
+  section.section--plastico .section__body .slick-carousel-plastico-images-images .section__bg {
     height: 400px;
   }
 }
-section.section--plastico .section__body .slick-carousel-plastico-images .section__bg .bg img {
+section.section--plastico .section__body .slick-carousel-plastico-images-images .section__bg .bg img {
   display: none;
 }
 section.section--plastico .section__body .slick-carousel-plastico-contents {
@@ -3403,21 +3421,6 @@ section.section--plastico .section__body .slick-carousel-plastico-contents {
   section.section--plastico .section__body .slick-carousel-plastico-contents {
     top: -100px;
     max-width: 60%;
-  }
-}
-section.section--plastico .section__body .slick-carousel-plastico-contents .section__title__main {
-  position: absolute;
-  top: -70px;
-  left: 0;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 48px;
-}
-@media (min-width: 720px) {
-  section.section--plastico .section__body .slick-carousel-plastico-contents .section__title__main {
-    font-size: 68px;
-    line-height: 76px;
   }
 }
 section.section--plastico .section__body .slick-carousel-plastico-contents .section__content {
@@ -3436,13 +3439,13 @@ section.section--plastico .section__body .slick-carousel-plastico-contents .sect
   background-color: #000;
   color: #fff;
   width: 100%;
-  padding: 40px;
+  padding: 20px;
   min-height: 250px;
 }
 @media (min-width: 720px) {
   section.section--plastico .section__body .slick-carousel-plastico-contents .section__content .section__content__box {
     padding: 40px;
-    min-height: 390px;
+    min-height: 250px;
   }
 }
 section.section--plastico .section__body .slick-carousel-plastico-contents .section__content .section__content__box p {
@@ -3453,8 +3456,8 @@ section.section--plastico .section__body .slick-carousel-plastico-contents .sect
 }
 @media (min-width: 720px) {
   section.section--plastico .section__body .slick-carousel-plastico-contents .section__content .section__content__box p {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 28px;
   }
 }
 section.section--message1 .section__wrap {
