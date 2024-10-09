@@ -3153,6 +3153,7 @@ section.section--main {
 section.section--main .section__wrap {
   padding-top: 60px;
   padding-bottom: 0;
+  height: 90vh;
 }
 @media (min-width: 720px) {
   section.section--main .section__wrap {
@@ -3218,7 +3219,7 @@ section.section--products {
 }
 @media (min-width: 720px) {
   section.section--products .section__wrap {
-    top: 80px;
+    top: 50px;
   }
 }
 section.section--products .section__carousel .section__carousel__item.section__carousel__item--cyan .section__content .section__name {
