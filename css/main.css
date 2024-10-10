@@ -2202,7 +2202,6 @@ header {
   background-color: #fff;
   box-shadow: $shadow_header;
   transition: 0.3s;
-  background-color: #f00 !important;
 }
 header .header__primary {
   height: 70px;
@@ -2580,6 +2579,7 @@ header.header--static .header__nav ul li a {
   header {
     height: 90px;
     line-height: 90px;
+    zoom: 110%;
   }
   header .header__wrap {
     padding: 0 40px;
@@ -2691,6 +2691,9 @@ header.header--static .header__nav ul li a {
   }
 }
 @media (min-width: 1090px) {
+  header {
+    zoom: 110%;
+  }
   header .header__ham {
     display: none;
   }
@@ -2720,6 +2723,11 @@ header.header--static .header__nav ul li a {
   header .header__nav ul li:hover a {
     background-color: #000;
     color: #fff;
+  }
+}
+@media (min-width: 1400px) {
+  header {
+    zoom: 100%;
   }
 }
 .loading {
@@ -3944,14 +3952,14 @@ section.section--notthestandard .section__martillo {
 @media (min-width: 960px) {
   section.section--notthestandard .section__martillo {
     top: 45%;
-    left: 40%;
+    left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
 }
 section.section--notthestandard .section__martillo img {
   margin: initial;
-  width: 110vh;
+  width: 130vh;
 }
 section.section--notthestandard .section__right {
   display: -ms-flexbox;
