@@ -2727,7 +2727,7 @@ header.header--static .header__nav ul li a {
 }
 @media (min-width: 1400px) {
   header {
-    zoom: 120%;
+    zoom: 100%;
   }
 }
 .loading {
