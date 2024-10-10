@@ -3468,12 +3468,36 @@ section.section--message1 .section__content {
   text-align: center;
 }
 section.section--message1 .section__content .section__text {
+  position: relative;
+  display: inline-block;
   text-transform: uppercase;
   font-family: 'Korolev', sans-serif;
   font-weight: bold;
   font-size: 56px;
   line-height: 64px;
   color: #000;
+}
+section.section--message1 .section__content .section__text:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10%;
+  width: 60px /* Ajusta el ancho de la imagen */;
+  height: 60px /* Ajusta el alto de la imagen o usa 'auto' */;
+  background-image: url("../img/uploads/comillas-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+section.section--message1 .section__content .section__text:before {
+  content: "";
+  position: absolute;
+  bottom: -2%;
+  right: 25%;
+  width: 60px /* Ajusta el ancho de la imagen */;
+  height: 60px /* Ajusta el alto de la imagen o usa 'auto' */;
+  background-image: url("../img/uploads/comillas-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 section.section--message1 .section__content .section__comilla--1 {
   position: absolute;
@@ -3504,19 +3528,66 @@ section.section--message1 .section__content .section__linecurve img {
 section.section--message1 .section__content .section__line img {
   max-width: 250px;
 }
+section.section--message2 .section__body .section__content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+section.section--message2 .section__body .section__content .section__text {
+  font-size: 36px;
+  line-height: 48px;
+  font-family: 'Montserrat', sans-serif;
+}
+section.section--message2 .section__body .section__content .section__works {
+  color: #000;
+}
+section.section--message2 .section__body .section__content .section__works .section__work--1 {
+  font-size: 56px;
+  line-height: 78px;
+  font-family: 'Peahart', sans-serif;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+section.section--message2 .section__body .section__content .section__works .section__work--2,
+section.section--message2 .section__body .section__content .section__works .section__work--3,
+section.section--message2 .section__body .section__content .section__works .section__work--4 {
+  text-transform: uppercase;
+  font-family: 'Peahart', sans-serif;
+  font-size: 52px;
+  line-height: 64px;
+}
+section.section--message3 {
+  min-height: 80vh;
+}
 section.section--message3 .section__bg {
   position: relative;
-  height: 100vh;
-  max-width: 40%;
+  height: 40vh;
+  max-width: 100%;
+}
+@media (min-width: 960px) {
+  section.section--message3 .section__bg {
+    height: 100vh;
+    max-width: 40%;
+  }
 }
 section.section--message3 .section__content {
   position: absolute;
-  top: 50%;
-  left: 75%;
+  top: 65%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 100%;
-  max-width: 60%;
+  max-width: 80%;
+}
+@media (min-width: 960px) {
+  section.section--message3 .section__content {
+    top: 50%;
+    left: 75%;
+    max-width: 60%;
+  }
 }
 section.section--message3 .section__content>* {
   -webkit-animation: slideFadeUp 0.5s ease backwards;
@@ -3544,8 +3615,8 @@ section.section--message3 .section__content>*:nth-child(5) {
 }
 section.section--message3 .section__content .section__title {
   font-family: 'Peahart', sans-serif;
-  font-size: 7vh;
-  line-height: 10vh;
+  font-size: 5vh;
+  line-height: 7vh;
 }
 @media (min-width: 720px) {
   section.section--message3 .section__content .section__title {
@@ -3563,21 +3634,107 @@ section.section--message3 .section__content .section__title {
 }
 section.section--message3 .section__content .section__title strong {
   position: relative;
-  left: -160px;
   font-family: 'Korolev', sans-serif;
   display: block;
-  font-size: 15vh;
-  line-height: 12vh;
+  font-size: 10vh;
+  line-height: 10vh;
   text-transform: uppercase;
   margin-top: 40px;
 }
+@media (min-width: 960px) {
+  section.section--message3 .section__content .section__title strong {
+    left: -160px;
+    font-size: 15vh;
+    line-height: 12vh;
+  }
+}
 section.section--message3 .section__content .section__line img,
 section.section--message3 .section__content .section__line position relative {
-  max-width: 500px;
+  max-width: 350px;
   margin: initial;
+}
+@media (min-width: 960px) {
+  section.section--message3 .section__content .section__line img,
+  section.section--message3 .section__content .section__line position relative {
+    max-width: 500px;
+  }
 }
 section.section--background {
   min-height: 100vh;
+}
+section.section--thisis {
+  min-height: 100vh;
+}
+section.section--thisis .section__text {
+  position: absolute;
+  top: 15%;
+  right: 20px;
+}
+section.section--thisis .section__text span {
+  font-size: 5vh;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Korolev', sans-serif;
+}
+@media (min-width: 960px) {
+  section.section--thisis .section__text span {
+    font-size: 10vh;
+  }
+}
+section.section--thisis .section__hand--1 {
+  position: absolute;
+  top: -10%;
+  left: 6%;
+}
+@media (min-width: 960px) {
+  section.section--thisis .section__hand--1 {
+    top: 0;
+  }
+}
+section.section--thisis .section__hand--1 img {
+  width: 25vh;
+  margin: initial;
+}
+section.section--thisis .section__hand--2 {
+  position: absolute;
+  bottom: -3%;
+  left: 53%;
+  display: none;
+}
+@media (min-width: 960px) {
+  section.section--thisis .section__hand--2 {
+    display: block;
+  }
+}
+section.section--thisis .section__hand--2 img {
+  width: 60vh;
+  margin: initial;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+section.section--thisis .section__producto--1 {
+  position: absolute;
+  bottom: 5%;
+  left: 15%;
+}
+section.section--thisis .section__producto--1 img {
+  width: 50vh;
+  margin: initial;
+}
+section.section--thisis .section__producto--2 {
+  position: absolute;
+  bottom: 22%;
+  left: 53%;
+  display: none;
+}
+@media (min-width: 960px) {
+  section.section--thisis .section__producto--2 {
+    display: block;
+  }
+}
+section.section--thisis .section__producto--2 img {
+  width: 45vh;
+  margin: initial;
 }
 .slick-slider {
   position: relative;

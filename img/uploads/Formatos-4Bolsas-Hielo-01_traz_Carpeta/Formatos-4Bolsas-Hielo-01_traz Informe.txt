@@ -1,0 +1,253 @@
+Informe del paquete
+
+-----------------------------------------------------------------------------
+Documento:
+Nombre: Formatos-4Bolsas-Hielo-01_traz.ai
+Modo de color: Color RGB
+Perfil de color: ninguno
+Unidades de regla: centímetros
+Dimensiones de la mesa de trabajo: 25 cm x 32 cm
+Mostrar imágenes en modo contorno: Desactivado
+Resaltar fuentes sustituidas: Desactivado
+Resaltar glifos sustituidos: Desactivado
+Conservar capacidad de edición de texto
+Simular papel de color: Desactivado
+
+-----------------------------------------------------------------------------
+Objetos de tintas planas:
+
+-----------------------------------------------------------------------------
+Fuentes no disponibles:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes protegidas no empaquetadas:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes:
+Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes incrustadas:
+Ninguno
+
+-----------------------------------------------------------------------------
+Enlaces no disponibles:
+Ninguno
+
+-----------------------------------------------------------------------------
+Imágenes enlazadas:
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1021,787 por 1176 puntos 
+Resolución: 108,234 por 104,816 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1021,787 por 1060,085 puntos 
+Resolución: 108,234 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 742,157 por 1060,085 puntos 
+Resolución: 149,014 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1021,787 por 1176 puntos 
+Resolución: 108,234 por 104,816 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1021,787 por 1060,085 puntos 
+Resolución: 108,234 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 742,157 por 1060,085 puntos 
+Resolución: 149,014 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 742,157 por 1060,085 puntos 
+Resolución: 149,014 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1021,787 por 1060,085 puntos 
+Resolución: 108,234 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 742,157 por 1060,085 puntos 
+Resolución: 149,014 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1021,787 por 1060,085 puntos 
+Resolución: 108,234 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-picados_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1021,787 por 1176 puntos 
+Resolución: 108,234 por 104,816 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 742,157 por 1060,085 puntos 
+Resolución: 149,014 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1021,787 por 1060,085 puntos 
+Resolución: 108,234 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 742,157 por 1060,085 puntos 
+Resolución: 149,014 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1021,787 por 1060,085 puntos 
+Resolución: 108,234 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-cubos_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1004,275 por 1175,043 puntos 
+Resolución: 110,121 por 104,902 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 742,157 por 1060,085 puntos 
+Resolución: 149,014 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1021,787 por 1060,085 puntos 
+Resolución: 108,234 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 742,157 por 1060,085 puntos 
+Resolución: 149,014 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1021,787 por 1060,085 puntos 
+Resolución: 108,234 por 116,277 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-picados_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1021,787 por 1176 puntos 
+Resolución: 108,234 por 104,816 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-cubos_transparencia.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1004,275 por 1175,043 puntos 
+Resolución: 110,121 por 104,902 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_xl_transparencia_zipper.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1029,869 por 1185,301 puntos 
+Resolución: 107,385 por 103,994 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_xl_transparencia_zipper.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 7704K, 1536 por 1712 píxeles
+Dimensiones: 1029,869 por 1185,301 puntos 
+Resolución: 107,385 por 103,994 píxeles por pulgada

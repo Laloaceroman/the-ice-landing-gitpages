@@ -286,10 +286,9 @@ app.pagepiling = {
     } else {
       return $('#pagepiling').pagepiling({
         direction: 'vertical',
-        sectionsColor: ['#ffffff', '#EFEFF1', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
+        sectionsColor: ['#ffffff', '#EFEFF1', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
         navigation: {
-          'position': 'right',
-          'tooltips': ['Sección 1', 'Sección 2', 'Sección 3', 'Sección 4', 'Sección 5', 'Sección 6', 'Sección 7']
+          'position': 'right'
         },
         scrollingSpeed: 500,
         afterLoad: function(anchorLink, index) {
