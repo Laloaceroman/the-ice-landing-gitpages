@@ -2725,6 +2725,11 @@ header.header--static .header__nav ul li a {
     color: #fff;
   }
 }
+@media (min-width: 1400px) {
+  header {
+    zoom: 150%;
+  }
+}
 .loading {
   position: fixed;
   top: 0;
@@ -3775,7 +3780,7 @@ section.section--thisis {
 }
 section.section--thisis .section__text {
   position: absolute;
-  top: 15%;
+  top: 19%;
   right: 20px;
 }
 section.section--thisis .section__text span {
@@ -3791,8 +3796,9 @@ section.section--thisis .section__text span {
 }
 section.section--thisis .section__hand--1 {
   position: absolute;
-  top: -10%;
-  left: 6%;
+  top: -5%;
+  left: 2%;
+  z-index: 3;
 }
 @media (min-width: 960px) {
   section.section--thisis .section__hand--1 {
@@ -3800,13 +3806,18 @@ section.section--thisis .section__hand--1 {
   }
 }
 section.section--thisis .section__hand--1 img {
-  width: 25vh;
+  width: 20vh;
   margin: initial;
+}
+@media (min-width: 960px) {
+  section.section--thisis .section__hand--1 img {
+    width: 25vh;
+  }
 }
 section.section--thisis .section__hand--2 {
   position: absolute;
   bottom: -3%;
-  left: 53%;
+  left: 50%;
   display: none;
 }
 @media (min-width: 960px) {
@@ -3815,7 +3826,24 @@ section.section--thisis .section__hand--2 {
   }
 }
 section.section--thisis .section__hand--2 img {
-  width: 60vh;
+  width: 55vh;
+  margin: initial;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+section.section--thisis .section__hand--3 {
+  position: absolute;
+  top: 25%;
+  right: 0;
+  display: none;
+}
+@media (min-width: 960px) {
+  section.section--thisis .section__hand--3 {
+    display: block;
+  }
+}
+section.section--thisis .section__hand--3 img {
+  width: 30vh;
   margin: initial;
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
@@ -3823,16 +3851,26 @@ section.section--thisis .section__hand--2 img {
 section.section--thisis .section__producto--1 {
   position: absolute;
   bottom: 5%;
-  left: 15%;
+  left: 5%;
+}
+@media (min-width: 960px) {
+  section.section--thisis .section__producto--1 {
+    left: 12%;
+  }
 }
 section.section--thisis .section__producto--1 img {
-  width: 55vh;
+  width: 33vh;
   margin: initial;
+}
+@media (min-width: 960px) {
+  section.section--thisis .section__producto--1 img {
+    width: 55vh;
+  }
 }
 section.section--thisis .section__producto--2 {
   position: absolute;
-  bottom: 22%;
-  left: 53%;
+  bottom: 20%;
+  left: 49%;
   display: none;
 }
 @media (min-width: 960px) {
@@ -3843,6 +3881,26 @@ section.section--thisis .section__producto--2 {
 section.section--thisis .section__producto--2 img {
   width: 45vh;
   margin: initial;
+}
+section.section--thisis .section__ventajas {
+  position: absolute;
+  bottom: 20%;
+  left: 67%;
+}
+@media (min-width: 960px) {
+  section.section--thisis .section__ventajas {
+    bottom: 10%;
+    left: 80%;
+  }
+}
+section.section--thisis .section__ventajas img {
+  width: 13vh;
+  margin: initial;
+}
+@media (min-width: 960px) {
+  section.section--thisis .section__ventajas img {
+    width: 15vh;
+  }
 }
 section.section--notthestandard {
   background-color: #000;
@@ -3901,7 +3959,7 @@ section.section--notthestandard .section__martillo {
 }
 section.section--notthestandard .section__martillo img {
   margin: initial;
-  width: 100vh;
+  width: 110vh;
 }
 section.section--notthestandard .section__right {
   display: -ms-flexbox;

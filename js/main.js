@@ -286,7 +286,7 @@ app.pagepiling = {
     } else {
       return $('#pagepiling').pagepiling({
         direction: 'vertical',
-        sectionsColor: ['#ffffff', '#EFEFF1', '#000000', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
+        sectionsColor: ['#ffffff', '#EFEFF1', '#000000', '#f7f7f7', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
         navigation: {
           'position': 'right'
         },
