@@ -3894,7 +3894,7 @@ section.section--notthestandard .section__martillo {
 @media (min-width: 960px) {
   section.section--notthestandard .section__martillo {
     top: 45%;
-    left: 30%;
+    left: 40%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
