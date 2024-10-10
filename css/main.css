@@ -4023,15 +4023,22 @@ section.section--notthestandard .section__right .section__image.section__image--
   }
 }
 section.section--notthestandard .section__right .section__image.section__image--3 {
+  position: relative;
   -webkit-transform: rotate(-5deg);
           transform: rotate(-5deg);
+  top: -70px;
 }
 @media (min-width: 960px) {
   section.section--notthestandard .section__right .section__image.section__image--4 {
     position: relative;
-    left: 190px;
-    top: 70px;
+    left: 0px;
+    top: 0px;
   }
+}
+section.section--contact .section__form {
+  box-shadow: rgba(0,0,0,0.16) 0px 10px 36px 0px, rgba(0,0,0,0.06) 0px 0px 0px 1px;
+  padding: 80px;
+  border-radius: 50px;
 }
 .slick-slider {
   position: relative;
