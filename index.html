@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <link href="img/favicon.png" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/main.css?v=93061" rel="stylesheet" type="text/css">
-    <script src="js/main.js?v=93061" type="text/javascript"></script>
+    <link href="css/main.css?v=77171" rel="stylesheet" type="text/css">
+    <script src="js/main.js?v=77171" type="text/javascript"></script>
     <!-- Meta tags facebook-->
     <meta property="og:title" content="#">
     <meta property="og:description" content="#">
@@ -17,15 +17,27 @@
     <meta name="twitter:description" content="#">
     <meta name="twitter:image" content="#"><link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <div class="header__primary">
         <div class="header__wrap">
           <div class="header__inner">
-            <div class="header__logo"><a href="index.html"><img src="img/icons/logo-the-stardards.png"></a></div>
-            <div class="header__logo"><a href="index.html"><img src="img/icons/logo-the-ice.png"></a></div>
+            <div class="header__text">
+              <ul>
+                <li>BETTER PACKING</li>
+                <li>BETTER PLANET</li>
+                <li>BETTER ICE</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__secondary">
+        <div class="header__wrap">
+          <div class="header__inner">
+            <div class="header__logo"><img src="img/icons/logo-the-ice.png"></div>
             <div class="header__nav">
               <div class="header__nav__bg"></div>
               <div class="header__nav__nav">
@@ -41,13 +53,16 @@
                 <div class="header__menu">
                   <nav>
                     <ul>
-                      <li class="header__nav__li"><a data-goto=".section--clients">Productos</a></li>
-                      <li class="header__nav__li"><a data-goto=".section--media">Recetas</a></li>
-                      <li class="header__nav__li"><a data-goto=".section--features">Impacto</a></li>
-                      <li class="header__nav__li"><a data-goto=".section--contact">Sobre Nosotros</a></li>
-                      <li class="header__nav__li"><a data-goto=".section--testimonies">Pilares</a></li>
-                      <li class="header__nav__li"><a data-goto=".section--testimonies">Partnership</a></li>
-                      <li class="header__nav__li"><a data-goto=".section--testimonies">Donde comprar</a></li>
+                      <li><a href="#">Productos</a></li>
+                      <li><a href="#">The ice</a></li>
+                      <li><a href="#">Partnership</a></li>
+                      <li>
+                        <div class="header__logo"><img src="img/icons/logo-the-ice.png"></div>
+                      </li>
+                      <li><a href="#">Dónde comprar</a></li>
+                      <li><a href="#">Recetas</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#" class="btn">Hablemos</a></li>
                     </ul>
                   </nav>
                 </div>
@@ -62,7 +77,7 @@
               <div class="header__nav__opacity"> </div>
               <div class="header__nav__nav"> 
                 <div class="header__nav__nav__header"> 
-                  <div class="header__nav__isotipo"> <img src="img/icons/logo-resit-blue.png"></div>
+                  <div class="header__nav__isotipo"> <img src="img/icons/logo-the-ice.png"></div>
                   <div class="header__nav__close">
                     <div></div>
                     <div></div>
@@ -76,15 +91,17 @@
                 <div class="header__nav__nav__body">
                   <div class="header__nav__nav__menu"> 
                     <ul>
-                      <li class="header__nav__li"><a data-goto=".section--clients">Productos</a></li>
-                      <li class="header__nav__li"><a data-goto=".section--media">Recetas</a></li>
-                      <li class="header__nav__li"><a data-goto=".section--features">Impacto</a></li>
-                      <li class="header__nav__li"><a data-goto=".section--contact">Sobre Nosotros</a></li>
-                      <li class="header__nav__li"><a data-goto=".section--testimonies">Pilares</a></li>
-                      <li class="header__nav__li"><a data-goto=".section--testimonies">Partnership</a></li>
-                      <li class="header__nav__li"><a data-goto=".section--testimonies">Donde comprar</a></li>
+                      <li><a href="#">Productos</a></li>
+                      <li><a href="#">The ice</a></li>
+                      <li><a href="#">Partnership</a></li>
+                      <li><a href="#">Dónde comprar</a></li>
+                      <li><a href="#">Recetas</a></li>
+                      <li><a href="#">Blog</a></li>
                     </ul>
                   </div>
+                </div>
+                <div class="header__nav__nav__footer">
+                  <div class="header__nav__buttons"><a class="btn btn--xs">Hablemos</a></div>
                 </div>
               </div>
             </div>
@@ -93,334 +110,446 @@
       </div>
     </header>
     <div id="sections">
-      <div id="pagepiling">
-        <section class="section section--main">
-          <div class="section__wrap">
-            <div class="section__body"> 
+      <section class="section--hero">
+        <div class="section__body">
+          <div class="swiper-container swiper-videos-mobile">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="section__image"><img src="img/uploads/banner-mobile-1.png"></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section__image"><img src="img/uploads/banner-mobile-2.png"></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section__image"><img src="img/uploads/banner-mobile-3.png"></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section__image"><img src="img/uploads/banner-mobile-4.png"></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-container swiper-videos">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="section__video">
+                  <video playsinline autoplay muted class="carousel-video">
+                    <source src="img/videos/video-01.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section__video">
+                  <video playsinline autoplay muted class="carousel-video">
+                    <source src="img/videos/video-02.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section__video">
+                  <video playsinline autoplay muted class="carousel-video">
+                    <source src="img/videos/video-03.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section__video">
+                  <video playsinline autoplay muted class="carousel-video">
+                    <source src="img/videos/video-04.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </section>
+      <section class="section--media">
+        <div class="section__wrap">
+          <div class="section__body">
+            <div class="cols">
+              <div class="section__flex">
+                <div class="col-md-6 dscroll">
+                  <div class="section__img"><img src="img/uploads/image-01.png"></div>
+                </div>
+                <div class="col-md-6 dscroll">
+                  <div class="section__content"><span class="section__subtitle">THE ICE</span>
+                    <h3 class="section__title">Diseñado<br> para ti </h3>
+                    <p>Queremos revolucionar tu día a día mejorando el Standards de tus productos de uso cotidiano. Nuestro compromiso es la practicidad, funcionalidad, sustentabilidad y calidad. Descubre nuestros beneficios y no querrás volver a los productos convencionales…</p><a href="#" class="btn btn--white">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--products">
+        <div class="section__header">
+          <h3 class="section__title">Conoce nuestros tipos de <span>Hielos</span></h3>
+          <p>Tomamos algo ordinario, y lo hicimos de forma extraordinaria</p>
+        </div>
+        <div class="section__body">
+          <div class="swiper-container swiper-products">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide dscroll">
+                <article class="article--product article--product--red">
+                  <div class="article__image">
+                    <div class="article__image__bublee"><img src="img/uploads/bublee-1.png"></div>
+                    <div class="article__image__product"><img src="img/uploads/producto1.png"></div>
+                  </div>
+                  <h4 class="article__title">Cubo cilindro</h4>
+                </article>
+              </div>
+              <div class="swiper-slide dscroll">
+                <article class="article--product article--product--green">
+                  <div class="article__image">
+                    <div class="article__image__bublee"><img src="img/uploads/bublee-2.png"></div>
+                    <div class="article__image__product"><img src="img/uploads/producto2.png"></div>
+                  </div>
+                  <h4 class="article__title">ESFERAS</h4>
+                </article>
+              </div>
+              <div class="swiper-slide dscroll">
+                <article class="article--product article--product--pink">
+                  <div class="article__image">
+                    <div class="article__image__bublee"><img src="img/uploads/bublee-3.png"></div>
+                    <div class="article__image__product"><img src="img/uploads/producto3.png"></div>
+                  </div>
+                  <h4 class="article__title">NUGGETS</h4>
+                </article>
+              </div>
+              <div class="swiper-slide dscroll">
+                <article class="article--product article--product--blue">
+                  <div class="article__image">
+                    <div class="article__image__bublee"><img src="img/uploads/bublee-4.png"></div>
+                    <div class="article__image__product"><img src="img/uploads/producto4.png"></div>
+                  </div>
+                  <h4 class="article__title">ESFERAS XL </h4>
+                </article>
+              </div>
+              <div class="swiper-slide dscroll">
+                <article class="article--product article--product--yellow">
+                  <div class="article__image">
+                    <div class="article__image__bublee"><img src="img/uploads/bublee-5.png"></div>
+                    <div class="article__image__product"><img src="img/uploads/producto5.png"></div>
+                  </div>
+                  <h4 class="article__title">HORECA</h4>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+      <section class="section--testimony">
+        <div class="section__wrap">
+          <div class="section__body dscroll">
+            <div class="section__content">
+              <blockquote><span>“</span>No se trata de hacer cosas extraordinarias, sino de hacer cosas ordinarias de manera extraordinaria<span>”</span></blockquote>
+              <p>Lionel Polilane</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--planet">
+        <div class="section__wrap section__wrap--sm">
+          <div class="section__body dscroll">
+            <div class="section__video">
+              <video playsinline autoplay muted loop>
+                <source src="img/videos/video-planeta-1.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--features">
+        <div class="section__wrap">
+          <div class="section__body">
+            <div class="cols">
+              <div class="col-md-4">
+                <div class="section__content"><span class="section__subtitle">THE ICE</span>
+                  <h3 class="section__title">CUBO <span>CILINDRO</span></h3>
+                  <div class="section__image"><img src="img/icons/message-1.png"></div><a href="#" class="btn btn--white">Ver más</a>
+                </div>
+              </div>
+              <div class="col-md-4">			
+                <div class="section__product"><img src="img/uploads/image-product.png"></div>
+              </div>
+              <div class="col-md-4">						
+                <div class="section__testimony"><img src="img/icons/image-testimony.png"></div>
+              </div>
+            </div>
+          </div>
+          <div class="section__footer">
+            <div class="cols">
+              <div class="col-xs-6 col-md-4 col-lg-2">
+                <article class="article--feature">
+                  <div class="article__icon"><img src="img/icons/icon-feature-1.png"></div>
+                  <div class="article__feature__body">
+                    <h4 class="article__title">Diseño práctico</h4>
+                    <p>Bolsa con manilla para mejor funcionalidad</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-xs-6 col-md-4 col-lg-2">
+                <article class="article--feature">
+                  <div class="article__icon"><img src="img/icons/icon-feature-2.png"></div>
+                  <div class="article__feature__body">
+                    <h4 class="article__title">Stand up bag</h4>
+                    <p>Bolsa autosoportable</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-xs-6 col-md-4 col-lg-2">
+                <article class="article--feature">
+                  <div class="article__icon"><img src="img/icons/icon-feature-3.png"></div>
+                  <div class="article__feature__body">
+                    <h4 class="article__title">Con zipper</h4>
+                    <p>Abre y cierra facilmente</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-xs-6 col-md-4 col-lg-2">
+                <article class="article--feature">
+                  <div class="article__icon"><img src="img/icons/icon-feature-4.png"></div>
+                  <div class="article__feature__body">
+                    <h4 class="article__title">No tóxico</h4>
+                    <p>Libre de micropláscticos</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-xs-6 col-md-4 col-lg-2">
+                <article class="article--feature">
+                  <div class="article__icon"><img src="img/icons/icon-feature-5.png"></div>
+                  <div class="article__feature__body">
+                    <h4 class="article__title">Reutilizable</h4>
+                    <p>Bolsa reutilizable</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-xs-6 col-md-4 col-lg-2">
+                <article class="article--feature">
+                  <div class="article__icon"><img src="img/icons/icon-feature-6.png"></div>
+                  <div class="article__feature__body">
+                    <h4 class="article__title">Consumo responsable</h4>
+                    <p>Reduce la huella de carbono</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--encuentranos">
+        <div class="section__wrap">
+          <div class="section__body">
+            <h3 class="section__title">Encuéntranos en...</h3>
+            <div class="section__logos">
               <div class="cols">
-                <div class="section__flex">
-                  <div class="col-md-6 col-md-push-6">
-                    <div class="section__right">
-                      <div class="section__logo"> <img src="img/uploads/logo-the-ice-main.png"></div>
-                    </div>
+                <div class="col-xs-6 col-md-4 dscroll">
+                  <div class="section__logo"><img src="img/icons/logo-encuentranos-1.png"></div>
+                </div>
+                <div class="col-xs-6 col-md-4 dscroll">
+                  <div class="section__logo"><img src="img/icons/logo-encuentranos-2.png"></div>
+                </div>
+                <div class="col-xs-6 col-md-4 dscroll">
+                  <div class="section__logo"><img src="img/icons/logo-encuentranos-3.png"></div>
+                </div>
+                <div class="col-xs-6 col-md-4 dscroll">
+                  <div class="section__logo"><img src="img/icons/logo-encuentranos-4.png"></div>
+                </div>
+                <div class="col-xs-6 col-md-4 dscroll">
+                  <div class="section__logo"><img src="img/icons/logo-encuentranos-5.png"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--form">
+        <div class="section__bg">
+          <div class="bg"><img src="img/uploads/background-form.png"></div>
+        </div>
+        <div class="section__wrap">
+          <div class="section__body">
+            <div class="section__form">
+              <h3 class="section__title">If you know can do better...<br> Then do better</h3>
+              <form class="form">
+                <div class="form__element">
+                  <div class="form__input">
+                    <input type="text" name="#" placeholder="Nombre">
                   </div>
-                  <div class="col-md-6 col-md-pull-6">
-                    <div class="section__left">
-                      <div class="section__circle"><img src="img/uploads/circulo-main.png"></div>
-                      <div class="section__gif"><img src="img/uploads/esfera-gif.gif"></div>
-                    </div>
+                </div>
+                <div class="form__element">
+                  <div class="form__input">
+                    <input type="text" name="#" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form__element">
+                  <div class="form__input">
+                    <textarea name="#" placeholder="Mensaje"></textarea>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--instagram">
+        <div class="section__header">
+          <h3 class="section__title">#theice</h3>
+        </div>
+        <div class="section__body">
+          <div class="swiper-container swiper-instagram">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide dscroll">
+                <div class="section__image">
+                  <div class="section__bg">
+                    <div class="bg"><img src="img/uploads/instagram-1.jpg"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide dscroll">
+                <div class="section__image">
+                  <div class="section__bg">
+                    <div class="bg"><img src="img/uploads/instagram-2.jpg"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide dscroll">
+                <div class="section__image">
+                  <div class="section__bg">
+                    <div class="bg"><img src="img/uploads/instagram-3.jpg"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide dscroll">
+                <div class="section__image">
+                  <div class="section__bg">
+                    <div class="bg"><img src="img/uploads/instagram-4.jpg"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide dscroll">
+                <div class="section__image">
+                  <div class="section__bg">
+                    <div class="bg"><img src="img/uploads/instagram-5.jpg"></div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <section class="section section--products">
-          <div class="section__wrap">
-            <div class="section__body">
-              <div class="section__carousel">
-                <div class="slick-carousel-products">
-                  <div class="section__carousel__item section__carousel__item--purple">
-                    <div class="cols">
-                      <div class="section__flex"> 
-                        <div class="col-md-6"> 
-                          <div class="section__image">
-                            <div class="section__product"><img src="img/uploads/bolsa-4.png"></div>
-                            <div class="section__eff"><img src="img/uploads/eff-4.png"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="section__content">
-                            <div class="section__video">
-                              <div class="section__video__video">
-                                <video autoplay muted loop playsinline webkit-playsinline>
-                                  <source src="videos/video-01.mp4" type="video/mp4">
-                                </video>
-                              </div>
-                              <div class="section__imagetext"><img src="img/uploads/image-main-comments.png"></div>
-                            </div>
-                            <div class="section__content__content">
-                              <div class="section__name"><img src="img/uploads/text-esferas-xl.png"></div><a href="#" class="button">Leer más</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="section__carousel__item section__carousel__item--cyan">
-                    <div class="cols">
-                      <div class="section__flex"> 
-                        <div class="col-md-6"> 
-                          <div class="section__image">
-                            <div class="section__product"><img src="img/uploads/bolsa-1.png"></div>
-                            <div class="section__eff"><img src="img/uploads/eff-1.png"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="section__content">
-                            <div class="section__video">
-                              <div class="section__video__video">
-                                <video autoplay muted loop playsinline webkit-playsinline>
-                                  <source src="videos/video-01.mp4" type="video/mp4">
-                                </video>
-                              </div>
-                              <div class="section__imagetext"><img src="img/uploads/image-main-comments.png"></div>
-                            </div>
-                            <div class="section__content__content">
-                              <div class="section__name"><img src="img/uploads/text-esferas.png"></div><a href="#" class="button">Leer más</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="section__carousel__item section__carousel__item--salmon">
-                    <div class="cols">
-                      <div class="section__flex"> 
-                        <div class="col-md-6"> 
-                          <div class="section__image">
-                            <div class="section__product"><img src="img/uploads/bolsa-2.png"></div>
-                            <div class="section__eff"><img src="img/uploads/eff-2.png"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="section__content">
-                            <div class="section__video">
-                              <div class="section__video__video">
-                                <video autoplay muted loop playsinline webkit-playsinline>
-                                  <source src="videos/video-02.mp4" type="video/mp4">
-                                </video>
-                              </div>
-                              <div class="section__imagetext"><img src="img/uploads/image-main-comments.png"></div>
-                            </div>
-                            <div class="section__content__content">
-                              <div class="section__name"><img src="img/uploads/text-nuggets.png"></div><a href="#" class="button">Leer más</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="section__carousel__item section__carousel__item--red">
-                    <div class="cols">
-                      <div class="section__flex"> 
-                        <div class="col-md-6"> 
-                          <div class="section__image">
-                            <div class="section__product"><img src="img/uploads/bolsa-3.png"></div>
-                            <div class="section__eff"><img src="img/uploads/eff-3.png"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="section__content">
-                            <div class="section__video">
-                              <div class="section__video__video section__video__video--tubos">
-                                <video autoplay muted loop playsinline webkit-playsinline>
-                                  <source src="videos/video-03.mp4" type="video/mp4">
-                                </video>
-                              </div>
-                              <div class="section__imagetext"><img src="img/uploads/image-main-comments.png"></div>
-                            </div>
-                            <div class="section__content__content">
-                              <div class="section__name"><img src="img/uploads/text-tubos.png"></div><a href="#" class="button">Leer más</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </section>
+      <section class="section--partners">
+        <div class="section__wrap">
+          <div class="section__header">
+            <h3 class="section__title">Nuestros Partners</h3>
           </div>
-        </section>
-        <section class="section section--notthestandard">
-          <div class="section__martillo"><img src="img/uploads/martillo.gif"></div>
-          <div class="section__lines"><img src="img/uploads/lines-notthestandard.png"></div>
-          <div class="section__right"> 
-            <div class="section__image section__image--1"><img src="img/uploads/hand-ice.jpeg"></div>
-            <div class="section__image section__image--2"><img src="img/uploads/text-this-is.png"></div>
-            <div class="section__image section__image--3"><img src="img/uploads/gif-opne-bolsa.gif"></div>
-            <div class="section__image section__image--4"><img src="img/uploads/vasos-ice.jpeg"></div>
-          </div>
-        </section>
-        <section class="section section--thisis">
-          <div class="section__text"><span>this is</span></div>
-          <div class="section__hand--1"><img src="img/uploads/image-hand-1.png"></div>
-          <div class="section__hand--2"><img src="img/uploads/image-hand-2.png"></div>
-          <div class="section__hand--3"><img src="img/uploads/image-hand-3.png"></div>
-          <div class="section__producto--1"><img src="img/uploads/product-gif.gif"></div>
-          <div class="section__producto--2"><img src="img/uploads/producto-reverso.png"></div>
-          <div class="section__ventajas"> <img src="img/uploads/ventajas.png"></div>
-        </section>
-        <section class="section section--plastico">
-          <div class="section__wrap">
-            <div class="section__body">
-              <div class="section__carousel">
-                <div class="slick-carousel-plastico-images">
-                  <h3 class="h1 section__title__main">El impacto del plástico</h3>
-                  <div class="slick-carousel-plastico-images-images">
-                    <div class="section__bg">
-                      <div class="bg"><img src="img/uploads/image-1.jpg"></div>
-                    </div>
-                    <div class="section__bg">
-                      <div class="bg"><img src="img/uploads/image-2.jpg"></div>
-                    </div>
-                    <div class="section__bg">
-                      <div class="bg"><img src="img/uploads/image-3.jpg"></div>
-                    </div>
-                    <div class="section__bg">
-                      <div class="bg"><img src="img/uploads/image-4.jpg"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="slick-carousel-plastico-contents">
-                  <div class="slick-carousel-plastico-contents-slick">
-                    <div class="section__content">
-                      <div class="section__content__box">
-                        <h3 class="section__title">Las 7 islas de plástico en nuestros océanos</h3>
-                        <p>Más de 150 MM de toneladas de plástico flotan en nuestros océanos, formando "islas" gigantes, estas masas de desechos amenazan la vida marina, dañando ecosistemas enteros. “La Gran Mancha de Basura del Pacífico” es la más grande (casi tres veces el tamaño de Texas).</p>
-                      </div>
-                    </div>
-                    <div class="section__content">
-                      <div class="section__content__box">
-                        <h3 class="section__title">Un amigo invisible duradero</h3>
-                        <p>Las bolsas plásticas tardan entre 400 y 1,000 años en degradarse, asfixiando océanos, contaminando suelos y envenenando nuestras aguas, causando graves consecuencias para la salud humana.</p>
-                      </div>
-                    </div>
-                    <div class="section__content">
-                      <div class="section__content__box">
-                        <h3 class="section__title">La huella de carbono del plástico</h3>
-                        <p>la producción de plástico emite toneladas de co₂ en cada etapa: desde la extracción de petróleo hasta su refinación y eliminación. ¡reducir el uso de plástico es clave para frenar el cambio climático!</p>
-                      </div>
-                    </div>
-                    <div class="section__content">
-                      <div class="section__content__box">
-                        <h3 class="section__title">Microplásticos en nuestro cuerpo</h3>
-                        <p>Cada año ingerimos miles de partículas de plástico a través de alimentos y agua. ¡sí, están en nuestros cuerpos! estas pequeñas toxinas pueden causar serios problemas de salud</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="section section--message1"> 
-          <div class="section__wrap"> 
-            <div class="section__body">
-              <div class="section__content">
-                <p class="section__text">Cada línea que desarrollamos,<br> es el resultado de nuestra<br> obsesión por la practicidad,<br> calidad, sustentabilidad<br> y diseño</p>
-                <div class="section__linecurve"><img src="img/uploads/line-curve.png"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="section section--message2">
-          <div class="section__wrap"> 
-            <div class="section__body">
-              <div class="section__content">
-                <p class="section__text">If you know you can better ... then do better</p>
-                <div class="section__works">
-                  <div class="section__works__image">
-                    <div class="section__works__image__mancha"><img src="img/uploads/mancha amrilla.png"></div>
-                    <p class="section__work--1">MEJOR</p>
-                    <p class="section__work--2">Packaging</p>
-                    <p class="section__work--3">Planeta</p>
-                    <p class="section__work--4">Hielo !</p>
-                  </div>
-                </div>
-                <div class="section__gif"> <img src="img/uploads/comillas-gif.gif"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="section section--message3"> 
-          <div class="section__bg"> 
-            <div class="bg"> <img src="img/uploads/image-message-3.jpg"></div>
-          </div>
-          <div class="section__content"> 
-            <h3 class="section__title dscroll">Diseñado para ti, creado para el <strong><span>PL</span>ANETA</strong></h3>
-            <div class="section__line dscroll"><img src="img/uploads/line-text-2.png"></div>
-          </div>
-        </section>
-        <section class="section section--background">
-          <div class="section__bg"> 
-            <div class="bg"> <img src="img/uploads/background-main.gif"></div>
-          </div>
-        </section>
-        <section class="section section--contact">
-          <div class="section__wrap"> 
-            <div class="section__body"> 
+          <div class="section__body">
+            <div class="section__logos">
               <div class="cols">
-                <div class="section__flex">
-                  <div class="col-lg-5 dscroll"> 
-                    <div class="section__content"> </div>
-                  </div>
-                  <div class="col-lg-7 dscroll"> 
-                    <div class="section__form"> 
-                      <form class="form">
-                        <div class="section__prueba">
-                          <h4 class="section__title">Contáctanos</h4>
-                          <div class="cols cols--sm"> 
-                            <div class="col-md-6">
-                              <div class="form__element"> 
-                                <div class="form__title">Nombre Empresa</div>
-                                <div class="form__input"> 
-                                  <input type="text" name="#" required>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <div class="form__element"> 
-                                <div class="form__title">Email</div>
-                                <div class="form__input"> 
-                                  <input type="text" name="#" required>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <div class="form__element"> 
-                                <div class="form__title">Teléfono</div>
-                                <div class="form__input"> 
-                                  <input type="number" name="#" required>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <div class="form__element"> 
-                                <div class="form__title">Sitio web</div>
-                                <div class="form__input"> 
-                                  <input type="text" name="#" required>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-md-12">
-                              <div class="form__element">
-                                <div class="form__title">Comentarios</div>
-                                <div class="form__input"> 
-                                  <textarea type="text" name="#" required>												</textarea>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-md-12">
-                              <div class="form__button">
-                                <button class="button">Enviar datos</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
+                <div class="col-xs-6 col-md-4 dscroll">
+                  <div class="section__logo"><img src="img/icons/logo-partner-1.png"></div>
+                </div>
+                <div class="col-xs-6 col-md-4 dscroll">
+                  <div class="section__logo"><img src="img/icons/logo-partner-2.jpg"></div>
+                </div>
+                <div class="col-xs-6 col-md-4 dscroll">
+                  <div class="section__logo"><img src="img/icons/logo-partner-3.png"></div>
+                </div>
+                <div class="col-xs-6 col-md-4 dscroll">
+                  <div class="section__logo"><img src="img/icons/logo-partner-4.png"></div>
+                </div>
+                <div class="col-xs-6 col-md-4 dscroll">
+                  <div class="section__logo"><img src="img/icons/logo-partner-5.png"></div>
+                </div>
+                <div class="col-xs-6 col-md-4 dscroll">
+                  <div class="section__logo"><img src="img/icons/logo-partner-6.png"></div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-      </div>
-      <div class="loading loading--in">
-        <div class="loading__img"><img src="img/icons/gif-initial.gif"></div>
-      </div>
+        </div>
+      </section>
     </div>
+    <footer>
+      <div class="footer__svg"><img src="img/uploads/line-footer.svg"></div>
+      <div class="footer__wrap">
+        <div class="cols">
+          <div class="col-md-3">
+            <div class="footer__left">
+              <div class="footer__logo"><img src="img/icons/logo-the-ice.png"></div>
+              <p>Nuestros hielos son puros y cristalinos. Tomamos algo ordinario y lo transformamos en algo extraordinario</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer__navs">
+              <div class="footer__nav">
+                <h4>Productos</h4>
+                <ul>
+                  <li><a href="#">Cubo Cilindro</a></li>
+                  <li><a href="#">Esferas</a></li>
+                  <li><a href="#">Nuggets</a></li>
+                  <li><a href="#">Exferas XL</a></li>
+                  <li><a href="#">Horeca</a></li>
+                  <li><a href="#">Customizados</a></li>
+                </ul>
+              </div>
+              <div class="footer__nav">
+                <h4>The Ice</h4>
+                <ul>
+                  <li><a href="#">Nuestra Historia</a></li>
+                  <li><a href="#">Recetas</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+                <h4>PARTNERSHIP</h4>
+                <ul>
+                  <li><a href="#">Nuestras Alianzas</a></li>
+                </ul>
+                <h4>DÓNDE COMPRAR</h4>
+                <ul>
+                  <li><a href="#">Nuestra Historia</a></li>
+                </ul>
+              </div>
+              <div class="footer__nav">
+                <h4>Ayuda</h4>
+                <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Contacto</a></li>
+                  <li><a href="#">Términos y Condiciones</a></li>
+                  <li><a href="#">Políticas de Privacidad</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer__newsletter">
+              <form>
+                <div class="form__element">
+                  <div class="form__title">SUSCRÍBETE A NUESTRA NEWSLETTER</div>
+                  <div class="form__input">
+                    <input type="text" placeholder="Email">
+                    <div class="form__button">
+                      <button class="btn">Suscríbete</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="footer__socials">
+              <div class="footer__social"><a href="#"><span class="fa fa-instagram"></span></a></div>
+              <div class="footer__social"><a href="#"><span class="fa fa-twitter"></span></a></div>
+              <div class="footer__social"><a href="#"><span class="fa fa-linkedin"></span></a></div>
+              <div class="footer__social"><a href="#"><span class="fa fa-facebook"></span></a></div>
+              <div class="footer__social"><a href="#"><span class="fa fa-youtube"></span></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

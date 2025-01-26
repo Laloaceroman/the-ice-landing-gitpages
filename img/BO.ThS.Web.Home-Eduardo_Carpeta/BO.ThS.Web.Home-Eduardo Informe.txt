@@ -1,0 +1,293 @@
+Informe del paquete
+
+-----------------------------------------------------------------------------
+Documento:
+Nombre: BO.ThS.Web.Home-Eduardo.ai
+Modo de color: Color RGB
+Perfil de color: sRGB IEC61966-2.1
+Unidades de regla: píxeles
+Dimensiones de la mesa de trabajo: 1895 px x 8480 px
+Mostrar imágenes en modo contorno: Desactivado
+Resaltar fuentes sustituidas: Desactivado
+Resaltar glifos sustituidos: Desactivado
+Conservar capacidad de edición de texto
+Simular papel de color: Desactivado
+
+-----------------------------------------------------------------------------
+Objetos de tintas planas:
+
+-----------------------------------------------------------------------------
+Fuentes no disponibles:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes protegidas no empaquetadas:
+Korolev Compressed Heavy (Adobe Fonts)
+Korolev Compressed Light (Adobe Fonts)
+Korolev Compressed Bold (Adobe Fonts)
+Korolev Bold (Adobe Fonts)
+Korolev Compressed Medium (Adobe Fonts)
+
+-----------------------------------------------------------------------------
+Fuentes:
+Montserrat Medium (TrueType)
+Montserrat Regular (TrueType)
+Montserrat SemiBold (TrueType)
+Montserrat Bold (TrueType)
+Pea Hart (TrueType)
+Roboto Italic (TrueType)
+Roboto Condensed Bold (TrueType)
+Roboto (TrueType)
+Roboto Light (TrueType)
+
+-----------------------------------------------------------------------------
+Fuentes incrustadas:
+Ninguno
+
+-----------------------------------------------------------------------------
+Enlaces no disponibles:
+Ninguno
+
+-----------------------------------------------------------------------------
+Imágenes enlazadas:
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-tubos_transparencia_sin fdo.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 10272K, 1536 por 1712 píxeles
+Dimensiones: 658,629 por 734,097 puntos 
+Resolución: 167,912 por 167,912 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\017898a7f9fe115351228d23a0b76bd1-vintage-yellow-fashion-shoot.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 1951K, 666 por 1000 píxeles
+Dimensiones: 617,828 por 927,669 puntos 
+Resolución: 77,614 por 77,614 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\GIF-PLANETA\GIF-PLANETA.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 9547K, 1920 por 1273 píxeles
+Dimensiones: 1920,274 por 1273,414 puntos 
+Resolución: 71,99 por 71,977 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\F.WEB\Montaje-render-360-bolsa_tubos-fdogris.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 3240K, 768 por 1080 píxeles
+Dimensiones: 546 por 767,812 puntos 
+Resolución: 101,275 por 101,275 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\MAT.ThS\logos\logo_negativo.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 76K, 140 por 140 píxeles
+Dimensiones: 83 por 83 puntos 
+Resolución: 121,446 por 121,446 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\MAT.ThS\logos\Oceana_logo.jpg
+Tipo: CMYK
+Bits por píxel: 32
+Canales: 4
+Tamaño: 7659K, 2086 por 940 píxeles
+Dimensiones: 173,289 por 78,088 puntos 
+Resolución: 866,713 por 866,713 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\MAT.ThS\logos\greenticket.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 197K, 478 por 106 píxeles
+Dimensiones: 186,928 por 41,453 puntos 
+Resolución: 184,114 por 184,114 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\MAT.ThS\logos\images (3).png
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 147K, 201 por 251 píxeles
+Dimensiones: 63,379 por 79,145 puntos 
+Resolución: 228,341 por 228,341 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\F.WEB\3434cfb4231d72956c5f128ccad0aa57.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 2378K, 736 por 1103 píxeles
+Dimensiones: 390,153 por 584,699 puntos 
+Resolución: 135,824 por 135,824 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\F.WEB\7ddecf2b056ab54d7dfdd2f25022293d.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 2117K, 736 por 982 píxeles
+Dimensiones: 475,927 por 635 puntos 
+Resolución: 111,345 por 111,345 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\F.WEB\e623790a6af3b0606ba872b4c13a293a.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 2380K, 736 por 1104 píxeles
+Dimensiones: 364 por 546 puntos 
+Resolución: 145,582 por 145,582 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\web\262e7781f232a35171ab10525c0ddeef.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 2117K, 736 por 982 píxeles
+Dimensiones: 363,253 por 484,666 puntos 
+Resolución: 145,882 por 145,882 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\web\953ee841d9056462040f04e041326e1e.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 1582K, 600 por 900 píxeles
+Dimensiones: 366 por 549 puntos 
+Resolución: 118,033 por 118,033 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\F.WEB\Screen_Shot_2021-09-30_at_8.43_2_0c3aeb13-38b0-4e21-82bd-22cf112650a6_1203x.webp
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 3767K, 1203 por 1069 píxeles
+Dimensiones: 1089,34 por 968 puntos 
+Resolución: 79,512 por 79,512 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\F.WEB\lata.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 5023K, 1203 por 1069 píxeles
+Dimensiones: 1089,34 por 968 puntos 
+Resolución: 79,512 por 79,512 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\GIF-PLANETA\662564ad976f8.webp
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 975K, 666 por 500 píxeles
+Dimensiones: 479,606 por 360,064 puntos 
+Resolución: 99,982 por 99,982 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\GIF-PLANETA\tortuga y pez.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 8297K, 2098 por 1350 píxeles
+Dimensiones: 519 por 333,961 puntos 
+Resolución: 291,052 por 291,052 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\GIF-PLANETA\Iceberg-platic-bag.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 33068K, 3612 por 3125 píxeles
+Dimensiones: 449,904 por 389,244 puntos 
+Resolución: 578,043 por 578,043 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\GIF-PLANETA\recogida-residuos-plasticos-sobre-fondo-azul-concepto-reciclaje-plasticos-ecologia_314485-3253.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 1937K, 996 por 664 píxeles
+Dimensiones: 499 por 332,667 puntos 
+Resolución: 143,711 por 143,711 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\GIF-PLANETA\tortuga y pez.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 8297K, 2098 por 1350 píxeles
+Dimensiones: 519 por 333,961 puntos 
+Resolución: 291,052 por 291,052 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\GIF-PLANETA\huella de carbono.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 2812K, 1200 por 800 píxeles
+Dimensiones: 784,187 por 522,791 puntos 
+Resolución: 110,178 por 110,178 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\GIF-PLANETA\tortuga y pez.jpg
+Tipo: RGB
+Bits por píxel: 24
+Canales: 3
+Tamaño: 8297K, 2098 por 1350 píxeles
+Dimensiones: 519 por 333,961 puntos 
+Resolución: 291,052 por 291,052 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-esferaXL_sin fdo.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 10272K, 1536 por 1712 píxeles
+Dimensiones: 351,114 por 391,346 puntos 
+Resolución: 314,974 por 314,974 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-nuggets_sin fdo.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 10272K, 1536 por 1712 píxeles
+Dimensiones: 348,538 por 388,475 puntos 
+Resolución: 317,302 por 317,302 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-ball_normal_sin fdo.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 10272K, 1536 por 1712 píxeles
+Dimensiones: 354,628 por 395,263 puntos 
+Resolución: 311,853 por 311,853 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-tubos_transparencia_3kilos.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 10272K, 1536 por 1712 píxeles
+Dimensiones: 406 por 452,521 puntos 
+Resolución: 272,394 por 272,394 píxeles por pulgada
+
+
+C:\Users\mreye\Documents\CLIENTES\CHILL\FO.CHILL\bolsa-tubos_transparencia_sin fdo.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 10272K, 1536 por 1712 píxeles
+Dimensiones: 347,319 por 387,116 puntos 
+Resolución: 318,416 por 318,416 píxeles por pulgada
