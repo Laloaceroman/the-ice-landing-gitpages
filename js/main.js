@@ -607,7 +607,7 @@ app.swiper = {
     swiper2 = new Swiper('.swiper-products', {
       loop: true,
       autoplay: {
-        delay: 5000,
+        delay: 50000,
         disableOnInteraction: false
       },
       slidesPerView: 5,
@@ -627,8 +627,20 @@ app.swiper = {
           slidesPerView: 2,
           spaceBetween: 10
         },
+        550: {
+          slidesPerView: 3,
+          spaceBetween: 10
+        },
         900: {
+          slidesPerView: 4,
+          spaceBetween: 20
+        },
+        1200: {
           slidesPerView: 5,
+          spaceBetween: 20
+        },
+        1500: {
+          slidesPerView: 6,
           spaceBetween: 20
         }
       }
