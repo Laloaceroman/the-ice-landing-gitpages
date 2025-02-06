@@ -4094,8 +4094,22 @@ section.section--features .section__content .btn:hover {
   background-color: #180f2b;
   color: #fff;
 }
-section.section--features .section__testimony img {
-  width: 450px;
+section.section--features .section__flex__right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+}
+section.section--features .section__flex__right .section__testimony {
+  margin-bottom: 40px;
+}
+section.section--features .section__flex__right .section__testimony img {
+  width: 350px;
+}
+section.section--features .section__flex__right .section__video video {
+  width: 350px;
 }
 section.section--testimony .section__wrap {
   padding-bottom: 0px;
