@@ -1636,7 +1636,7 @@ article.article--product {
 }
 @media (min-width: 720px) {
   article.article--product {
-    min-height: 390px;
+    min-height: 500px;
   }
 }
 article.article--product.article--product--red {
@@ -4287,6 +4287,36 @@ section.section--iniciativas .section__wrap .section__header .section__images .s
 section.section--iniciativas .section__wrap .section__body {
   max-width: 800px;
   margin: 0 auto;
+}
+section.section--message {
+  margin-bottom: 120px;
+}
+section.section--message .section__body {
+  padding: 40px 20px;
+  border-top: 1px solid #180f2b;
+  border-bottom: 1px solid #180f2b;
+  text-align: center;
+  text-transform: uppercase;
+}
+section.section--message .section__body p {
+  font-size: 32px;
+  line-height: 42px;
+  font-family: 'Korolev Compress', sans-serif;
+  font-weight: 500;
+  margin-bottom: 0;
+  letter-spacing: 10px;
+}
+@media (min-width: 720px) {
+  section.section--message .section__body p {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+@media (min-width: 1090px) {
+  section.section--message .section__body p {
+    font-size: 56px;
+    line-height: 64px;
+  }
 }
 @font-face {
   font-family: 'swiper-icons';
